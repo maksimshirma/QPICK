@@ -1,0 +1,15 @@
+.cart-page {
+    display: flex;
+    min-height: calc(100vh - 210px);
+}
+
+.cart-page .cart-page__list {
+    width: 650px;
+}
+
+.cart-page .cart-page__sum {
+    width: 460px;
+    display: flex;
+    justify-content: center;
+    padding-top: 100px;
+}

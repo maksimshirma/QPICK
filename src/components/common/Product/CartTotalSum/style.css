@@ -1,0 +1,44 @@
+.cart-total-sum {
+    width: 350px;
+    height: 120px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    background: #FFFFFF;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
+    border-radius: 30px;
+}
+
+.cart-total-sum .cart-total-sum__content {
+    height: 55px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cart-total-sum .cart-total-sum__arrange {
+    width: 100%;
+    height: 65px;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    background: #101010;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.25);
+    border-radius: 20px;
+}
+
+.cart-total-sum .cart-total-sum__arrange button {
+    text-decoration: none;
+    border: none;
+    background: inherit;
+
+    font-weight: 600;
+    font-size: 17px;
+    line-height: 21px;
+    
+
+    color: #FFFFFF;
+}

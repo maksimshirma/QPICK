@@ -1,0 +1,54 @@
+.product-info {
+    display: grid;
+    grid-template-areas:
+        'title price'
+        'rate buy';
+    align-items: center;
+
+    width: 310px;
+    height: 80px;
+
+    margin: 0 auto;
+
+    font-weight: 600;
+    font-size: 17px;
+    line-height: 21px;
+}
+
+.product-info .product-info__title {
+    grid-area: title;
+
+    color: #1C1C27;
+}
+
+.product-info .product-info__price {
+    grid-area: price;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    color: #FFA542;
+}
+
+.product-info .product-info__rate {
+    grid-area: rate;
+    display: flex;
+    align-items: center;
+
+    color: #838383;
+}
+
+
+.product-info .product-info__buy {
+    grid-area: buy;
+
+    text-align: center;
+    padding: 0;
+
+    text-decoration: none;
+    background-color: inherit;
+    border: none;
+
+    color: #000000;
+}

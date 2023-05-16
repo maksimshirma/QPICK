@@ -1,0 +1,1 @@
+export { fetchHeadpnones, fetchWirelessHeadphones, fetchCart } from "./fake.api";

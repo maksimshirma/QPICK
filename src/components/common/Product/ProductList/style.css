@@ -1,0 +1,24 @@
+.product-list {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    padding: 20px 0;
+    
+}
+
+.product-list .product-list__title {
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 24px;
+
+    color: #838383;
+}
+
+.product-list .product-list__content {
+    width: 100%;
+
+    display: flex;
+    flex-wrap: wrap;
+    align-content: flex-start;
+    justify-content: center;
+}

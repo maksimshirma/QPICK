@@ -1,0 +1,22 @@
+.navigation {
+    display: flex;
+}
+
+.navigation .navigation__item {
+    padding-left: 15px;
+    cursor: pointer;
+    position: relative;
+}
+
+.navigation .navigation__item .navigation__item-counter {
+    position: absolute;
+    top: -5px;
+    right: -5px;
+    background-color: #FFA542;
+    border-radius: 100%;
+    width: 15px;
+    height: 15px;
+    color: #FFF;
+    font-size: 10px;
+    text-align: center;
+}

@@ -1,0 +1,29 @@
+.counter {
+    width: 100px;
+    height: 100%;
+    display: flex;
+    margin: 0 20px;
+    align-items: center;
+}
+
+.counter .counter__minus, .counter .counter__plus {
+    background: #FFCE7F;
+    border-radius: 100%;
+    width: 30px;
+    height: 30px;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 25px;
+    cursor: pointer;
+}
+
+.counter .counter__count {
+    flex-grow: 1;
+    text-align: center;
+    font-weight: 600;
+    font-size: 17px;
+    line-height: 21px;
+    color: #000000;
+}
